@@ -1,0 +1,103 @@
+#resume-relative {
+  position: relative;
+  background-color: #f5f5fa;
+  padding: 5% 18%;
+  min-height: 100vh;
+}
+
+#resume-container {
+  width: 100%;
+  padding: 0;
+  color: #333333;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 0 30px 1px #00000030;
+}
+
+#row-100 {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#left-side {
+  color: #cacaca;
+  background-color: #434244;
+  border-radius: 15px 0 0 15px;
+}
+
+.link {
+  cursor: pointer;
+  color: #4e75dd;
+  transition: color 0.2s;
+  word-wrap: break-word;
+}
+
+.link:hover {
+  color: #829ff0;
+}
+
+.name {
+  font-family: 'kanit-bold';
+  font-size: calc(30% + 2.5vw);
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  align-items: center;
+  background-color: #333333;
+  border-radius: 50%;
+  color: #cacaca;
+}
+
+.subject {
+  font-family: 'kanit-bold';
+}
+
+.space-line {
+  position: relative;
+  height: 200px;
+}
+
+.vertical-line {
+  position: absolute;
+  left: 25px;
+  height: 200px;
+  border-left: 1px #333333 solid;
+}
+
+.vertical-line-ball {
+  position: absolute;
+  left: 16px;
+  width: 20px;
+  height: 20px;
+  background-color: #333333;
+  border-radius: 50%;
+}
+
+.border-bottom-black {
+  border-bottom: 1px #333333 solid;
+}
+
+.border-end-black {
+  border-right: 1px #333333 solid;
+}
+
+@media (max-width: 1199px) {
+  .space-line {
+    display: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .name {
+    font-size: calc(40% + 4.5vmin);
+  }
+}
+
+@media (max-width: 510px) {
+  #email {
+    word-wrap: break-word;
+  }
+}
