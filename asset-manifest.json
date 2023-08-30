@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/CV/static/css/main.222a1381.css",
-    "main.js": "/CV/static/js/main.11d10207.js",
+    "main.css": "/CV/static/css/main.c82edcec.css",
+    "main.js": "/CV/static/js/main.f57288cb.js",
     "static/js/787.a71561b8.chunk.js": "/CV/static/js/787.a71561b8.chunk.js",
     "static/media/Aon.png": "/CV/static/media/Aon.74a93804c4e66546bd54.png",
     "static/media/KANIT-BOLD.TTF": "/CV/static/media/KANIT-BOLD.46cd98a815b9874526ad.TTF",
@@ -11,12 +11,12 @@
     "static/media/all-stack.jpg": "/CV/static/media/all-stack.b132d7bf26ec8f6f462b.jpg",
     "static/media/qrcode-portfolio.jpg": "/CV/static/media/qrcode-portfolio.9d9b81b67854423e9ce6.jpg",
     "index.html": "/CV/index.html",
-    "main.222a1381.css.map": "/CV/static/css/main.222a1381.css.map",
-    "main.11d10207.js.map": "/CV/static/js/main.11d10207.js.map",
+    "main.c82edcec.css.map": "/CV/static/css/main.c82edcec.css.map",
+    "main.f57288cb.js.map": "/CV/static/js/main.f57288cb.js.map",
     "787.a71561b8.chunk.js.map": "/CV/static/js/787.a71561b8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.222a1381.css",
-    "static/js/main.11d10207.js"
+    "static/css/main.c82edcec.css",
+    "static/js/main.f57288cb.js"
   ]
 }
