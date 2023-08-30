@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/CV/static/css/main.d8397b91.css",
+    "main.js": "/CV/static/js/main.50dbfddf.js",
+    "static/js/787.dc9ee2bf.chunk.js": "/CV/static/js/787.dc9ee2bf.chunk.js",
+    "static/media/Aon.png": "/CV/static/media/Aon.74a93804c4e66546bd54.png",
+    "static/media/KANIT-BOLD.TTF": "/CV/static/media/KANIT-BOLD.46cd98a815b9874526ad.TTF",
+    "static/media/KANIT-REGULAR.TTF": "/CV/static/media/KANIT-REGULAR.f3bae13d78ced30b6ea3.TTF",
+    "static/media/KANIT-LIGHT.TTF": "/CV/static/media/KANIT-LIGHT.7b6b95563f4c5697d973.TTF",
+    "static/media/KANIT-EXTRALIGHT.TTF": "/CV/static/media/KANIT-EXTRALIGHT.c30ae435f86553872b17.TTF",
+    "static/media/all-stack.jpg": "/CV/static/media/all-stack.b132d7bf26ec8f6f462b.jpg",
+    "static/media/qrcode-portfolio.jpg": "/CV/static/media/qrcode-portfolio.9d9b81b67854423e9ce6.jpg",
+    "index.html": "/CV/index.html",
+    "main.d8397b91.css.map": "/CV/static/css/main.d8397b91.css.map",
+    "main.50dbfddf.js.map": "/CV/static/js/main.50dbfddf.js.map",
+    "787.dc9ee2bf.chunk.js.map": "/CV/static/js/787.dc9ee2bf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d8397b91.css",
+    "static/js/main.50dbfddf.js"
+  ]
+}
