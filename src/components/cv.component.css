@@ -1,8 +1,106 @@
+@keyframes leftIn1 {
+  0% {
+    transform: translateX(-450px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes leftIn2 {
+  0% {
+    transform: translateX(-2000px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes leftIn3 {
+  0% {
+    transform: translateX(-450px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes rightIn1 {
+  0% {
+    transform: translateX(1000px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes rightIn2 {
+  0% {
+    transform: translateX(2000px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes rightIn3 {
+  0% {
+    transform: translateX(2000px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/* .leftIn1 {
+  animation: leftIn1 1.5s;
+}
+.leftIn2 {
+  animation: leftIn2 2s;
+}
+.leftIn3 {
+  animation: leftIn2 2s;
+}
+.rightIn1 {
+  animation: rightIn1 2s;
+}
+.rightIn2 {
+  animation: rightIn2 2.5s;
+}
+.rightIn3 {
+  animation: rightIn2 2.5s;
+} */
+.leftIn1 {
+  animation: leftIn1 2s;
+}
+.leftIn2 {
+  animation: leftIn2 2.5s;
+}
+.leftIn3 {
+  animation: leftIn2 2.5s;
+}
+.rightIn1 {
+  animation: rightIn1 2.5s;
+}
+.rightIn2 {
+  animation: rightIn2 3s;
+}
+.rightIn3 {
+  animation: rightIn2 3s;
+}
+
 #cv-relative {
   position: relative;
   background-color: #f5f5fa;
   padding: 5% 18%;
   min-height: 100vh;
+  overflow: hidden;
 }
 
 #cv-container {
@@ -21,9 +119,16 @@
 }
 
 #left-side {
+  position: relative;
   color: #cacaca;
   background-color: #434244;
   border-radius: 15px 0 0 15px;
+  overflow: hidden;
+}
+
+#right-side {
+  position: relative;
+  overflow: hidden;
 }
 
 .link {

@@ -16,7 +16,7 @@ const CVComponent = () => {
                                     <img src={require('./../assets/images/Aon.png')} width="100%" draggable="false" alt="" />
                                 </div>
                                 <div className='fs-5 my-3'>แนะนำตัว</div>
-                                <div>
+                                <div className='leftIn1'>
                                     Full stack developer ผู้ชื่นชอบการเขียน
                                     โปรแกรม มีทักษะด้านการเขียนโปรแกรมเพื่อพัฒนาระบบทั้งในฝั่ง Front-end และ Back-end สามารถวิเคราะห์ข้อมูลและวางแผนจัดการปัญหาได้ในระยะเวลาอันสั้น
                                     มักใช้เวลาว่างในการศึกษาเทคโนโลยีที่น่าสนใจ
@@ -24,23 +24,23 @@ const CVComponent = () => {
                                 </div>
                                 <div className="border-bottom my-4"></div>
                                 <div className='fs-5 mb-3'>ข้อมูลส่วนตัว</div>
-                                <div className='mb-3'>
+                                <div className='mb-3 leftIn2'>
                                     <div>วันเกิด</div>
                                     <div>17 กรกฎาคม 2540</div>
                                 </div>
-                                <div className='mb-3'>
+                                <div className='mb-3 leftIn2'>
                                     <div>สัญชาติ</div>
                                     <div>ไทย</div>
                                 </div>
-                                <div className='mb-3'>
+                                <div className='mb-3 leftIn2'>
                                     <div>น้ำหนัก</div>
                                     <div>60 กก.</div>
                                 </div>
-                                <div className='mb-3'>
+                                <div className='mb-3 leftIn2'>
                                     <div>ส่วนสูง</div>
                                     <div>166 ซม.</div>
                                 </div>
-                                <div>
+                                <div className='leftIn2'>
                                     <div>ที่อยู่</div>
                                     <div>26/461 อาคารT12 ถ.ป็อปปูล่า ต.บ้านใหม่</div>
                                     <div>อ.ปากเกร็ด จ.นนทบุรี 11120</div>
@@ -66,8 +66,8 @@ const CVComponent = () => {
                             <Col id='right-side' lg='8' className='p-5'>
                                 <Row className='my-5'>
                                     <Col xl='12' xxl='7'>
-                                        <div className='name'>ศาศวัต</div>
-                                        <div className='name'>ทรัพย์สินโยธิน</div>
+                                        <div className='name leftIn3'>ศาศวัต</div>
+                                        <div className='name rightIn3'>ทรัพย์สินโยธิน</div>
                                         <div className='fs-4'>Full stack developer</div>
                                     </Col>
                                     <Col xl='12' xxl='5' className='pt-4 pe-0'>
@@ -99,7 +99,7 @@ const CVComponent = () => {
                                         </div>
                                         <div className='vertical-line'></div>
                                     </Col>
-                                    <Col xl='7'>
+                                    <Col xl='7' className='rightIn1'>
                                         <div className='subject'>Full stack developer</div>
                                         <div>
                                             ทำหน้าที่พัฒนาระบบในรูปแบบ web application
@@ -123,7 +123,7 @@ const CVComponent = () => {
                                         </div>
                                         <div className='vertical-line'></div>
                                     </Col>
-                                    <Col xl='7'>
+                                    <Col xl='7' className='rightIn2'>
                                         <div className='subject'>วิศวกรรมศาสตร์บัณฑิต</div>
                                         <div>
                                             จบการศึกษาในระดับปริญญาตรี คณะวิศวกรรมศาสตร์
