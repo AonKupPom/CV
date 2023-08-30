@@ -1,11 +1,11 @@
 import './App.css';
 import "bootstrap/dist/css/bootstrap.css";
-import ResumeComponent from './components/resume.component';
+import CVComponent from './components/cv.component';
 
 function App() {
   return (
     <div className="App">
-      <ResumeComponent />
+      <CVComponent />
     </div>
   );
 }

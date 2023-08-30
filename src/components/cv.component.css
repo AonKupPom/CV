@@ -1,11 +1,11 @@
-#resume-relative {
+#cv-relative {
   position: relative;
   background-color: #f5f5fa;
   padding: 5% 18%;
   min-height: 100vh;
 }
 
-#resume-container {
+#cv-container {
   width: 100%;
   padding: 0;
   color: #333333;

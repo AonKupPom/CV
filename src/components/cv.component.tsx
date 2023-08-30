@@ -1,15 +1,15 @@
 import React from 'react'
-import './resume.component.css'
+import './cv.component.css'
 import { Row, Col } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
-const ResumeComponent = () => {
+const CVComponent = () => {
     return (
         <>
-            <div id="resume-relative">
+            <div id="cv-relative">
                 <Row className="height-100">
-                    <Col id="resume-container">
+                    <Col id="cv-container">
                         <Row id='row-100'>
                             <Col id='left-side' lg='4' className='p-5'>
                                 <div>
@@ -161,4 +161,4 @@ const ResumeComponent = () => {
     )
 }
 
-export default ResumeComponent
+export default CVComponent
